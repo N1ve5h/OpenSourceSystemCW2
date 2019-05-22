@@ -50,7 +50,5 @@ if (isset($_SESSION['id'])) {
    } else {
    header("Location: index.php");
    }
-
    echo template("templates/partials/footer.php");
-
    ?>
